@@ -1,180 +1,246 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Catégorie</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/Front/STATIQUE/CSS/index.css">
-</head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Front/STATIQUE/CSS/index.css" />
+    <style>
+      @keyframes myAnim {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
 
-<body>
+      .zoom-effect:hover {
+        animation: myAnim 2s ease 0s 1 normal;
+      }
+    </style>
+  </head>
+
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="/Front/STATIQUE/CSS/asset/img/images_the_district/the_district_brand/logo.png"
-                alt="Logo" width="60" height="50" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/Front/STATIQUE/HTML/index.html">Accueil</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="Front/STATIQUE/HTML/Catégorie.html">Catégorie</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Plats</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="Contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="#">
+        <img
+          src="/Front/STATIQUE/CSS/asset/img/images_the_district/the_district_brand/logo.png"
+          alt="Logo"
+          width="60"
+          height="50"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/Front/STATIQUE/HTML/index.html"
+              >Accueil</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Front/STATIQUE/HTML/Catégorie.html"
+              >Catégorie</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plats</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="search-container">
-        <img
-            src="/Front/STATIQUE/CSS/asset/img/images_the_district/bg.jpg"height=150
-            alt="Image de fond"
-            class="search-image"
-        />
+      <img
+        src="/Front/STATIQUE/CSS/asset/img/images_the_district/bg.jpg"
+        alt="Image de fond"
+        width="180 px"
+        class="search-image"
+      />
     </div>
     <!-- CATEGORIE -->
     <div class="container mt-5 text-center">
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-11.png"
-                        alt="catégorie 1"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-19.jpg"
-                        alt="catégorie 2"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-18.png"
-                        alt="catégorie 3"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4 offset-md-0 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-4.png"
-                        alt="catégorie 4"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-5.png"
-                        alt="catégorie 5"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="zoom-effect">
-                    <img
-                        src="/public/images/rectangle-6.png"
-                        alt="catégorie 6"
-                        height="120"
-                        width="170"
-                    />
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-11.png"
+              alt="catégorie 1"
+              height="120"
+              width="170"
+            />
+          </div>
         </div>
-        <!-- PLATS -->
-        <div class="container mt-6">
-            <div class="row mt-4">
-                <div class="col-md-4 mb-4">
-                    <div class="zoom-effect">
-                        <img
-                            src="../images_the_district/food/cheesburger.jpg"
-                            alt="Plat 1"
-                            height="120"
-                            width="170"
-                        />
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="zoom-effect">
-                        <img
-                            src="../images_the_district/food/slider-modern_sushi-2.webp"
-                            alt="Plat 2"
-                            height="120"
-                            width="170"
-                        />
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="zoom-effect text-right">
-                        <img
-                            src="../images_the_district/food/pizza-margherita.jpg"
-                            alt="Plat 3"
-                            height="150"
-                            width="350"
-                        />
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-19.jpg"
+              alt="catégorie 2"
+              height="120"
+              width="170"
+            />
+          </div>
         </div>
+        <div class="col-md-4 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-18.png"
+              alt="catégorie 3"
+              height="120"
+              width="170"
+            />
+          </div>
+        </div>
+        <div class="col-md-4 offset-md-0 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-4.png"
+              alt="catégorie 4"
+              height="120"
+              width="170"
+            />
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-5.png"
+              alt="catégorie 5"
+              height="120"
+              width="170"
+            />
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="zoom-effect">
+            <img
+              src="/public/images/rectangle-6.png"
+              alt="catégorie 6"
+              height="120"
+              width="170"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- PLATS -->
+      <div class="container mt-6">
+        <div class="row mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="zoom-effect">
+              <img
+                src="/cesar_salad1.jpg"
+                alt="Plat 1"
+                height="120"
+                width="170"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="zoom-effect">
+              <img
+                src="/Food-burger2-6340.jpg"
+                alt="Plat 2"
+                height="120"
+                width="170"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="zoom-effect text-right">
+              <img
+                src="/spaghetti-legumes.jpg"
+                alt="Plat 3"
+                height="120"
+                width="170"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mt-3 mb-3 d-flex justify-content-between align-items-center"
+    >
+      <button class="btn btn-primary mr-2">Précédent</button>
+      <button class="btn btn-primary">Suivant</button>
     </div>
     <footer class="mt-5 bg-dark text-white text-center py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <a href="#"><img src="/public/images/bi-facebook.svg" alt="Facebook" class="mr-5" width="20"></a>
-                    <a href="#"><img src="/public/images/logos-twitter.svg" alt="Twitter" class="mr-5" width="20"></a>
-                    <a href="#"><img src="/public/images/group.svg" alt="Instagram" class="mr-5" width="20"></a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="https://www.facebook.com/"
+              ><img
+                src="/public/images/bi-facebook.svg"
+                alt="Facebook"
+                class="mr-5"
+                width="20"
+            /></a>
+            <a href="#"
+              ><img
+                src="/public/images/logos-twitter.svg"
+                alt="Twitter"
+                class="mr-5"
+                width="20"
+            /></a>
+            <a href="#"
+              ><img
+                src="/public/images/group.svg"
+                alt="Instagram"
+                class="mr-5"
+                width="20"
+            /></a>
+          </div>
         </div>
+      </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
